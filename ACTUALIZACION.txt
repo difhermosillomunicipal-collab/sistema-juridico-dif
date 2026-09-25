@@ -1,0 +1,13 @@
+CORRECCIÓN V4.1
+
+Se corrigió el error Jinja2 de detalle.html que provocaba:
+TemplateSyntaxError: Unexpected end of template.
+
+No requiere borrar juridico.db ni uploads.
+
+Reemplazar:
+- app.py (si se desea usar el paquete completo)
+- templates\detalle.html
+
+Recomendación:
+Conservar juridico.db y uploads.

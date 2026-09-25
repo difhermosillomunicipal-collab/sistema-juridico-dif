@@ -1,0 +1,23 @@
+SISTEMA JURÍDICO DIF HERMOSILLO - V4.2
+
+Cambios:
+- Responsables de las siete áreas agregados.
+- Al seleccionar un área, el responsable aparece automáticamente.
+- Expedientes existentes con responsable vacío/PENDIENTE se actualizan.
+- Se conservan usuarios, permisos, historial y documentos.
+
+Responsables:
+Dirección General -> Paulina
+Administración -> Brissa
+Jurídico -> Dina
+Dirección de la Familia -> Lizeth
+Asistencia Social -> Rene
+PMA -> Kenna
+COMUDIS -> Yaneth
+
+Instalación:
+1. CTRL+C para detener el servidor.
+2. Conservar juridico.db y uploads.
+3. Reemplazar app.py y templates.
+4. Ejecutar: python app.py
+5. Entrar a http://172.16.68.224:8080/login
