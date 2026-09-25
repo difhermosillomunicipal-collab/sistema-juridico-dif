@@ -1,6 +1,0 @@
-Flask
-Flask-SQLAlchemy
-pandas
-openpyxl
-Werkzeug
-gunicorn
